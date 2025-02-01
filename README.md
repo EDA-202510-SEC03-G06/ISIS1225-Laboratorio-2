@@ -38,11 +38,9 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
 
-1. Daniel Andrés Gómez Rodrígues No. 1, da.gomezr12@uniandes.edu.co No. 1 Uniandes, Funcionalidad propiedad del estudiante No. 1.
-1. Laura Avril Alvarado Ortega No. 2, la.alvaradoo1@uniandes.edu.co No. 2 Uniandes, Funcionalidad propiedad del estudiante No. 2.
-1. Lina Sofía Ramírez Mojica  No. 3, ls.ramirezm1@uniandes.edu.co No. 3 Uniandes, Funcionalidad propiedad del estudiante No. 3.
-
-[Volver al inicio](#laboratorio-2)
+1. Daniel Andrés Gómez Rodríguez, da.gomezr12@uniandes.edu.co, 202414483.
+1. Laura Avril Alvarado Ortega, la.alvaradoo1@uniandes.edu.co, 22227074.
+1. Lina Sofía Ramírez Mojica, ls.ramirezm1@uniandes.edu.co, 202414153.
 
 <!-- ABOUT THE PROJECT -->
 
