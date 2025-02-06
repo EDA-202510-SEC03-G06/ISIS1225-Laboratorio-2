@@ -59,7 +59,6 @@ def print_menu():
     # Agregue la opción 3 para cargar los tags de los libros.
     # Pueede guiarse de las opciones 1 y 2.
     print("3-Cargar Book-Tags!!!...")
-    print("3- Cargar Tags de Libros")
     print("0- Salir")
 
 
@@ -156,9 +155,6 @@ def main():
 
         elif int(inputs[0]) == 3:
             # TODO: Mods de Est-3 en el Lab 2
-            print("Cargando información de Book-Tags...")
-            booktags =load_books_tags(app)
-            print("Total de Book-Tags cargados: " +str(booktags))
             print("Cargando información de Book-Tags...")
             booktags =load_books_tags(app)
             print("Total de Book-Tags cargados: " +str(booktags))
