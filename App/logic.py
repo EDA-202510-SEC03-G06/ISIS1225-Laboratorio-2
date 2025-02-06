@@ -200,10 +200,6 @@ def add_book_tag(catalog, booktag):
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
     set.add_element(catalog["book_tags"], booktag)
     return catalog
-<<<<<<<<< Temporary merge branch 1
-    pass
-=========
->>>>>>>>> Temporary merge branch 2
 
 
 # Funciones de consulta
