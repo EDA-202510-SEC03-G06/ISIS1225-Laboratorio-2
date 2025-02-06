@@ -42,6 +42,8 @@ Los estudiantes editan esta sección para agregar sus nombres, correos electrón
 1. Laura Avril Alvarado Ortega, la.alvaradoo1@uniandes.edu.co, 22227074.
 1. Lina Sofía Ramírez Mojica, ls.ramirezm1@uniandes.edu.co, 202414153.
 
+[Volver al inicio](#laboratorio-2)
+
 <!-- ABOUT THE PROJECT -->
 
 ## Acerca del proyecto
