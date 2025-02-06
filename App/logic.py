@@ -133,6 +133,12 @@ def load_books_tags(catalog, filename):
     :rtype: int
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
+    booktagfile =os.path.join(data_dir, filename)
+    input_file =csv.DictReader(open(booktagfile, encoding="utf-8"))
+    catalog =create_book_tag_list(catalog)
+    for booktag in input_file:
+        add_book_tag(catalog, booktag)
+    return book_tag_size(catalog)
     catalog =control["model"]
     booksfile =os.path.join(cf.data_dir, filename)
     catalog =model.addBookTags(catalog, booksfile)
@@ -151,6 +157,7 @@ def first_book(catalog):
     """
     # TODO: Mods Est-3 en el Lab 2
     return set.get_first_element(catalog["books"])
+    return set.get_first_element(catalog["books"])
 
 
 def last_book(catalog):
@@ -158,6 +165,7 @@ def last_book(catalog):
     Devuelve el ultimo libro del catalogo
     """
     # TODO: Mods Est-3 en el Lab 2
+    return set.get_last_element(catalog["books"])
     return set.get_last_element(catalog["books"])
 
 # Funciones para la manipulacion de los datos
@@ -205,6 +213,8 @@ def add_book_tag(catalog, booktag):
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
     set.add_element(catalog["book_tags"], booktag)
     return catalog
+    set.add_element(catalog["book_tags"], booktag)
+    return catalog
     pass
     set.add_element(catalog["book_tags"], booktag)
     return catalog
@@ -215,13 +225,16 @@ def add_book_tag(catalog, booktag):
 def book_size(catalog):
     # TODO: Mods de Est-3 en el Lab 2
     return set.size(catalog["books"])
+    return set.size(catalog["books"])
 
 
 def tag_size(catalog):
     # TODO: Mods de Est-3 en el Lab 2
     return set.size(catalog["tags"])
+    return set.size(catalog["tags"])
 
 
 def book_tag_size(catalog):
     # TODO: Mods de Est-3 en el Lab 2
+    return set.size(catalog["book_tags"])
     return set.size(catalog["book_tags"])
