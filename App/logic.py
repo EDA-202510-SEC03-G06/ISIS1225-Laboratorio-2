@@ -204,7 +204,6 @@ def add_book_tag(catalog, booktag):
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
     set.add_element(catalog["book_tags"], booktag)
     return catalog
-    pass
 
 
 # Funciones de consulta
